@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
+import { Routes, Route } from "react-router-dom";GIT 
+import Navbar from "./components/Navbar";
 import Ticker from "./components/Ticker";
 import Heropage from "./components/Hero/Hero";
 import Collections from "./components/Collections/Collections";

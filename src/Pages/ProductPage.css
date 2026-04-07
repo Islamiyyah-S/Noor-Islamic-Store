@@ -1,0 +1,273 @@
+.pp {
+  min-height: 100vh;
+  background: #FAFAF7;
+  padding: 40px 24px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pp__back {
+  background: none;
+  border: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2C5F2E;
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding: 0;
+  display: block;
+}
+
+.pp__back:hover {
+  color: #C9A84C;
+}
+
+.pp__layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .pp__layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* Image side */
+.pp__img-wrap {
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  background: #f0ede6;
+}
+
+.pp__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pp__badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: #C9A84C;
+  color: white;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+}
+
+/* Detail side */
+.pp__collection {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin: 0 0 12px;
+}
+
+.pp__name {
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: normal;
+  color: #1A1A1A;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+
+.pp__pricing {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 28px;
+}
+
+.pp__price {
+  font-size: 1.4rem;
+  color: #2C5F2E;
+  font-weight: 700;
+}
+
+.pp__old {
+  font-size: 1rem;
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.pp__divider {
+  height: 1px;
+  background: #e8e8e2;
+  margin-bottom: 28px;
+}
+
+.pp__desc {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.pp__option-group {
+  margin-bottom: 28px;
+}
+
+.pp__option-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.pp__selected-val {
+  color: #C9A84C;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+/* Sizes */
+.pp__sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pp__size-btn {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ddd;
+  background: white;
+  font-size: 11px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #1A1A1A;
+  transition: all 0.2s ease;
+}
+
+.pp__size-btn:hover {
+  border-color: #2C5F2E;
+  color: #2C5F2E;
+}
+
+.pp__size-btn--active {
+  background: #2C5F2E;
+  border-color: #2C5F2E;
+  color: white;
+}
+
+/* Colors */
+.pp__colors {
+  display: flex;
+  gap: 12px;
+}
+
+.pp__color-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+}
+
+.pp__color-btn:hover {
+  transform: scale(1.15);
+}
+
+.pp__color-btn--active {
+  outline-color: #2C5F2E;
+}
+
+/* Quantity */
+.pp__qty {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: fit-content;
+  border: 1px solid #ddd;
+}
+
+.pp__qty button {
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #1A1A1A;
+  transition: background 0.2s;
+}
+
+.pp__qty button:hover {
+  background: #f0ede6;
+}
+
+.pp__qty span {
+  width: 48px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CTA */
+.pp__cta {
+  width: 100%;
+  padding: 18px;
+  background: #2C5F2E;
+  color: white;
+  border: none;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 36px;
+  transition: background 0.3s ease;
+}
+
+.pp__cta:hover:not(:disabled) {
+  background: #1A1A1A;
+}
+
+.pp__cta--added {
+  background: #C9A84C !important;
+}
+
+.pp__cta--disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.pp__cta--oos {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.pp__hint {
+  font-size: 11px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.pp-not-found {
+  padding: 120px 24px;
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+}

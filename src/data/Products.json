@@ -1,0 +1,389 @@
+{
+  "collections": [
+    {
+      "id": "abayas",
+      "name": "Abayas",
+      "description": "Elegant modest wear for the modern Muslim woman",
+      "image": "/src/assets/Collections/abayas.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "ab001",
+          "name": "Classic Black Abaya",
+          "price": 32500,
+          "oldPrice": 35000,
+          "image": "/src/assets/Products/Abayas/ab001.jpg",
+          "badge": "Bestseller",
+          "description": "A timeless black abaya with subtle embroidery at the cuffs. Breathable fabric perfect for everyday wear.",
+          "sizes": ["S", "M", "L", "XL", "XXL"],
+          "inStock": true
+        },
+        {
+          "id": "ab002",
+          "name": "Embroidered Open Abaya",
+          "price": 58000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Abayas/ab002.jpg",
+          "badge": "New",
+          "description": "Stunning open-front abaya with gold embroidery detail. Perfect for special occasions.",
+          "sizes": ["S", "M", "L", "XL"],
+          "inStock": true
+        },
+        {
+          "id": "ab003",
+          "name": "Linen Everyday Abaya",
+          "price": 19500,
+          "oldPrice": 11000,
+          "image": "/src/assets/Products/Abayas/ab003.jpg",
+          "badge": null,
+          "description": "Lightweight linen abaya for warm weather. Relaxed fit with side pockets.",
+          "sizes": ["S", "M", "L", "XL", "XXL"],
+          "inStock": true
+        },
+        {
+          "id": "ab004",
+          "name": "Nida Butterfly Abaya",
+          "price": 34000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Abayas/ab004.jpg",
+          "badge": "New",
+          "description": "Flowing butterfly cut abaya in premium nida fabric. Effortlessly elegant.",
+          "sizes": ["M", "L", "XL"],
+          "inStock": true
+        },
+        {
+          "id": "ab005",
+          "name": "Occasion Pearl Abaya",
+          "price": 44000,
+          "oldPrice": 28000,
+          "image": "/src/assets/Products/Abayas/ab005.jpg",
+          "badge": "Sale",
+          "description": "Luxurious pearl-embellished abaya for weddings and celebrations.",
+          "sizes": ["S", "M", "L"],
+          "inStock": false
+        }
+      ]
+    },
+    {
+      "id": "thobes",
+      "name": "Thobes",
+      "description": "Premium quality thobes for the distinguished Muslim man",
+      "image": "/src/assets/Collections/thobes.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "th001",
+          "name": "Classic White Thobe",
+          "price": 25000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Thobes/th001.jpg",
+          "badge": "Bestseller",
+          "description": "Crisp white Saudi-style thobe in premium cotton. Perfect for Jumu'ah and daily wear.",
+          "sizes": ["S", "M", "L", "XL", "XXL"],
+          "inStock": true
+        },
+        {
+          "id": "th002",
+          "name": "Emirati Kandura",
+          "price": 42000,
+          "oldPrice": 26000,
+          "image": "/src/assets/Products/Thobes/th002.jpg",
+          "badge": "Sale",
+          "description": "Traditional Emirati kandura with fine collar stitching. Lightweight and breathable.",
+          "sizes": ["M", "L", "XL", "XXL"],
+          "inStock": true
+        },
+        {
+          "id": "th003",
+          "name": "Moroccan Djellaba",
+          "price": 39500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Thobes/th003.jpg",
+          "badge": "New",
+          "description": "Authentic Moroccan djellaba with hood and intricate button detail.",
+          "sizes": ["S", "M", "L", "XL"],
+          "inStock": true
+        },
+        {
+          "id": "th004",
+          "name": "Linen Summer Thobe",
+          "price": 32000,
+          "oldPrice": 14000,
+          "image": "/src/assets/Products/Thobes/th004.jpg",
+          "badge": null,
+          "description": "Breathable linen thobe ideal for hot weather. Simple and elegant design.",
+          "sizes": ["S", "M", "L", "XL", "XXL"],
+          "inStock": true
+        },
+        {
+          "id": "th005",
+          "name": "Occasion Bisht Thobe",
+          "price": 55000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Thobes/th005.jpg",
+          "badge": "Premium",
+          "description": "Ceremonial thobe with gold-trimmed bisht cloak. For weddings and special events.",
+          "sizes": ["M", "L", "XL"],
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "quran-books",
+      "name": "Quran & Books",
+      "description": "Sacred texts and Islamic literature for every home",
+      "image": "/src/assets/Collections/books.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "qb001",
+          "name": "Deluxe Hardcover Quran",
+          "price": 18000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Books/qb001.jpg",
+          "badge": "Bestseller",
+          "description": "Large hardcover Quran with Arabic text and English translation. Gold-embossed cover.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "qb002",
+          "name": "Pocket Quran",
+          "price": 6500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Books/qb002.jpg",
+          "badge": null,
+          "description": "Compact travel-size Quran. Fits in your pocket or handbag.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "qb003",
+          "name": "Fortress of the Muslim",
+          "price": 10500,
+          "oldPrice": 4000,
+          "image": "/src/assets/Products/Books/qb003.jpg",
+          "badge": "Sale",
+          "description": "Essential collection of daily duas and dhikr for every Muslim household.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "qb004",
+          "name": "The Sealed Nectar",
+          "price": 12500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Books/qb004.jpg",
+          "badge": "New",
+          "description": "Award-winning biography of Prophet Muhammad (SAW). A must-read for every Muslim.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "qb005",
+          "name": "Quran Tajweed Edition",
+          "price": 22000,
+          "oldPrice": 25000,
+          "image": "/src/assets/Products/Books/qb005.jpg",
+          "badge": "Sale",
+          "description": "Color-coded Tajweed Quran to help with proper recitation rules.",
+          "sizes": null,
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "hijabs-scarves",
+      "name": "Hijabs & Scarves",
+      "description": "Beautiful hijabs and scarves for every occasion",
+      "image": "/src/assets/Collections/hijabs.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "hj001",
+          "name": "Jersey Scarves",
+          "price": 3500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Hijabs/hj001.jpg",
+          "badge": "Bestseller",
+          "description": "Soft stretchy jersey hijab. No pins needed. Perfect for everyday wear.",
+          "sizes": ["One Size"],
+          "inStock": true
+        },
+        {
+          "id": "hj002",
+          "name": "Chiffon Scarves ",
+          "price": 4200,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Hijabs/hj002.jpg",
+          "badge": null,
+          "description": "Lightweight chiffon hijab in a flattering nude tone. Elegant and versatile.",
+          "sizes": ["One Size"],
+          "inStock": true
+        },
+        {
+          "id": "hj003",
+          "name": "Malaysian Hijabs",
+          "price": 15500,
+          "oldPrice": 18000,
+          "image": "/src/assets/Products/Hijabs/hj003.jpg",
+          "badge": "Sale",
+          "description": "Luxurious satin scarf perfect for weddings and special occasions.",
+          "sizes": ["One Size"],
+          "inStock": true
+        },
+        {
+          "id": "hj004",
+          "name": "Printed Silk Hijab",
+          "price": 8500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Hijabs/hj004.jpg",
+          "badge": "New",
+          "description": "Hand-printed silk hijab with subtle Islamic geometric pattern.",
+          "sizes": ["One Size"],
+          "inStock": true
+        },
+        {
+          "id": "hj005",
+          "name": "Indonisia Hijab",
+          "price": 7000,
+          "oldPrice": 9000,
+          "image": "/src/assets/Products/Hijabs/hj005.jpg",
+          "badge": "Sale",
+          "description": "Warm wool blend scarf for cooler weather. Soft and cosy.",
+          "sizes": ["One Size"],
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "perfumes",
+      "name": "Perfumes & Oils",
+      "description": "Authentic Arabian fragrances and Oud oils",
+      "image": "/src/assets/Collections/perfumes.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "pf001",
+          "name": "Oud Al Mamlaka Oil",
+          "price": 39500,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Perfumes/pf001.png",
+          "badge": "Bestseller",
+          "description": "Rich and woody Oud oil from the finest Arabian wood. Long-lasting and intense.",
+          "sizes": ["3ml", "6ml", "12ml"],
+          "inStock": true
+        },
+        {
+          "id": "pf002",
+          "name": "Rose & Oud Spray",
+          "price": 34000,
+          "oldPrice": 16000,
+          "image": "/src/assets/Products/Perfumes/pf002.png",
+          "badge": "Sale",
+          "description": "A beautiful blend of Bulgarian rose and Oud. Feminine and sophisticated.",
+          "sizes": ["50ml", "100ml"],
+          "inStock": true
+        },
+        {
+          "id": "pf003",
+          "name": "Musk Al Tahara",
+          "price": 35000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Perfumes/pf003.png",
+          "badge": null,
+          "description": "Pure white musk oil. Clean, fresh, and Halal-certified.",
+          "sizes": ["3ml", "6ml"],
+          "inStock": true
+        },
+        {
+          "id": "pf004",
+          "name": "Amber Bakhoor",
+          "price": 110000,
+          "oldPrice": 150000,
+          "image": "/src/assets/Products/Perfumes/pf004.png",
+          "badge": "Premium",
+          "description": "Traditional bakhoor incense chips for home fragrance. Warm amber and spice.",
+          "sizes": ["50g", "100g"],
+          "inStock": true
+        },
+        {
+          "id": "pf005",
+          "name": "Pure Black Seed Oil",
+          "price": 17500,
+          "oldPrice": 20000,
+          "image": "/src/assets/Products/Perfumes/pf005.png",
+          "badge": "Sale",
+          "description": "Luxurious attar combining rare saffron with deep Oud notes.",
+          "sizes": ["3ml", "6ml", "12ml"],
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "id": "gift-boxes",
+      "name": "Islamic Gift Boxes",
+      "description": "Beautifully curated Islamic gift sets for every occasion",
+      "image": "/src/assets/Collections/gifts.jpg",
+      "count": 5,
+      "products": [
+        {
+          "id": "gb001",
+          "name": "Ramadan Gift Box",
+          "price": 25000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Gifts/gb001.png",
+          "badge": "Bestseller",
+          "description": "Curated Ramadan box with dates, musk, a pocket Quran, and tasbih beads.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "gb002",
+          "name": "New Baby Islamic Set",
+          "price": 18000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Gifts/gb002.png",
+          "badge": "New",
+          "description": "Thoughtful new baby gift with a mini Quran, prayer mat, and personalised card.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "gb003",
+          "name": "Bride & Groom Box",
+          "price": 35000,
+          "oldPrice": 40000,
+          "image": "/src/assets/Products/Gifts/gb003.png",
+          "badge": "Sale",
+          "description": "Luxury nikah gift box with Oud perfume, prayer beads, and a Quran set.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "gb004",
+          "name": "Eid Gift Box",
+          "price": 20000,
+          "oldPrice": null,
+          "image": "/src/assets/Products/Gifts/gb004.png",
+          "badge": "New",
+          "description": "Celebrate Eid with this beautiful box filled with treats, fragrances, and accessories.",
+          "sizes": null,
+          "inStock": true
+        },
+        {
+          "id": "gb005",
+          "name": "Daily Essentials Box",
+          "price": 15000,
+          "oldPrice": 18000,
+          "image": "/src/assets/Products/Gifts/gb005.png",
+          "badge": "Sale",
+          "description": "Everything a Muslim needs daily — musk, miswak, tasbih, and a dua book.",
+          "sizes": null,
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}
+

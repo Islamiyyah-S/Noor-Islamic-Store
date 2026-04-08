@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";GIT 
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Ticker from "./components/Ticker";
 import Heropage from "./components/Hero/Hero";
@@ -10,6 +10,7 @@ import CartDrawer from "./components/CartDrawer/CartDrawer";
 import CollectionPage from "./Pages/CollectionPages"
 import ProductPage from "./Pages/ProductPage"
 import ShopPage from "./Pages/ShopPage";
+import AboutPage from "./Pages/AboutPage";
 import Footer from "./components/Footer/Footer"
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/collections/:slug" element={<CollectionPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/shop" element={<ShopPage />} /> 
+          <Route path="/about" element={<AboutPage />} />
       </Routes>
   );
 }

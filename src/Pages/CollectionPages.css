@@ -5,7 +5,7 @@
 }
 
 .collection-page__hero {
-  background: #2C5F2E;
+  background: #070B16;
   color: white;
   text-align: center;
   padding: 80px 24px 60px;
@@ -123,7 +123,7 @@
 .cp-card__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(44, 95, 46, 0.7);
+  background: rgba(7, 11, 22, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;

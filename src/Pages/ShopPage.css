@@ -89,13 +89,13 @@
 }
 
 .sp-tab:hover {
-  border-color: #2C5F2E;
-  color: #2C5F2E;
+  border-color:#070B16;
+  color: #070B16;
 }
 
 .sp-tab-active {
-  background-color: #2C5F2E;
-  border-color: #2C5F2E;
+  background-color: #070B16;
+  border-color: #070B16;
   color: #ffffff;
 }
 

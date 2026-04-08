@@ -1,0 +1,252 @@
+
+.ap {
+  background: #FAFAF7;
+  min-height: 100vh;
+}
+
+/* ── HERO ── */
+.ap__hero {
+    background: #070B16;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 24px 60px;
+  position: relative;
+   background-repeat: no-repeat;    
+    /* background-size: cover;           */
+    background-position: center; 
+}
+
+.ap__hero-label {
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin-bottom: 28px;
+}
+
+.ap__hero-title {
+  font-family: Georgia, serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: normal;
+  color: white;
+  line-height: 1.05;
+  margin: 0 0 28px;
+}
+
+.ap__hero-title em {
+  color: #C9A84C;
+  font-style: italic;
+}
+
+.ap__hero-sub {
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  color: rgba(255,255,255,0.6);
+  max-width: 540px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.ap__hero-scroll {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+}
+
+/* ── MISSION / VISION ── */
+.ap__mv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .ap__mv {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ap__mv-card {
+  padding: 80px 60px;
+}
+
+@media (max-width: 768px) {
+  .ap__mv-card {
+    padding: 60px 24px;
+  }
+}
+
+.ap__mv-card--dark {
+  background: #1A1A1A;
+  color: white;
+}
+
+.ap__mv-card--light {
+  background: #f0ede6;
+  color: #1A1A1A;
+}
+
+.ap__mv-tag {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin-bottom: 24px;
+}
+
+.ap__mv-text {
+  font-family: Georgia, serif;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ── SECTION HEAD ── */
+.ap__section-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 56px;
+}
+
+.ap__section-line {
+  width: 48px;
+  height: 1px;
+  background: #C9A84C;
+}
+
+.ap__section-label {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0;
+}
+
+/* ── VALUES ── */
+.ap__values {
+  padding: 100px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .ap__values {
+    padding: 70px 24px;
+  }
+}
+
+.ap__values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+@media (max-width: 640px) {
+  .ap__values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ap__value-card {
+  border: 1px solid #e8e8e2;
+  padding: 48px 40px;
+  transition: background 0.3s ease;
+}
+
+.ap__value-card:hover {
+  background: white;
+}
+
+.ap__value-num {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #C9A84C;
+  margin-bottom: 20px;
+}
+
+.ap__value-title {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #1A1A1A;
+  margin: 0 0 16px;
+}
+
+.ap__value-text {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.9;
+  margin: 0;
+}
+
+/* ── CTA ── */
+.ap__cta {
+  padding: 120px 24px;
+  text-align: center;
+  background: #FAFAF7;
+}
+
+.ap__cta-title {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: normal;
+  color: #1A1A1A;
+  margin: 0 0 16px;
+}
+
+.ap__cta-sub {
+  font-size: 0.95rem;
+  color: #999;
+  margin: 0 0 40px;
+  line-height: 1.7;
+}
+
+.ap__cta-btns {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ap__btn-dark {
+  padding: 16px 36px;
+  background: #1A1A1A;
+  color: white;
+  border: none;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ap__btn-dark:hover {
+  background: #2C5F2E;
+}
+
+.ap__btn-outline {
+  padding: 16px 36px;
+  background: transparent;
+  color: #1A1A1A;
+  border: 1px solid #1A1A1A;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ap__btn-outline:hover {
+  background: #1A1A1A;
+  color: white;
+}

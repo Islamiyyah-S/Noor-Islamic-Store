@@ -37,7 +37,7 @@ export default function CollectionPage() {
           >
             ← Back
           </button>
-          <p className="collection-page__label">✦ NOOR STORE</p>
+          <p className="collection-page__label">NOOR STORE</p>
           <h1 className="collection-page__title">{collectionName}</h1>
           <p className="collection-page__count">{items.length} pieces</p>
         </div>

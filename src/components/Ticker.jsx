@@ -11,7 +11,7 @@ export default function Ticker() {
 
   return (
     <>
-      <div className="bg-black py-3 overflow-hidden">
+      <div className="bg-[#070B16] py-3 overflow-hidden">
         <div
           className="flex whitespace-nowrap"
           style={{ animation: "ticker 20s linear infinite" }}

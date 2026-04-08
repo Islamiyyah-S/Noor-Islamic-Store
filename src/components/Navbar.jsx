@@ -31,7 +31,7 @@ export default function Navbar({ onCartClick }) {
     if (link === "Home") navigate("/");
     if (link === "Collections") scrollToSection("collections");
     if (link === "Shop") navigate("/shop");
-    if (link === "About") scrollToSection("about");
+    if (link === "About")  navigate("/about");
     if (link === "Contact") navigate("/contact");
   };
 

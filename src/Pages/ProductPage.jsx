@@ -6,7 +6,6 @@ import { useCart } from "../Context/CartContext";
 import products from "../data/Products.json";
 import "../Pages/ProductPage.css";
 import Footer from "../components/Footer/Footer";
-
 const clothingCollections = ["Abayas", "Thobes", "Hijabs & Scarves"];
 
 export default function ProductPage() {

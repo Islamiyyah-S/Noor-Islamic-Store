@@ -8,11 +8,11 @@ import "./Hero.css";
 const slides = [
   {
     type: "video",
-    src: "/src/assets/Hero-vid.mp4",
+    src: "public/Videos/Hero-vid.mp4",
   },
   {
     type: "video",
-    src: "/src/assets/Hero-vid2.mp4",
+    src: "public/Videos/Hero-vid2.mp4",
   },
 ];
 

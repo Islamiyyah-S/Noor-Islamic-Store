@@ -12,7 +12,6 @@ export default function About() {
   return (
     <section className="about-editorial" id="about">
       <div className="about-shell">
-        {/* Top Intro */}
         <div className="about-top">
           <div className="about-label">
             <div className="about-label-line" />
@@ -56,7 +55,7 @@ export default function About() {
           {/* Main Image */}
           <div className="about-image-wrap">
             <img
-              src="src/components/About/about.jpg"
+              src="public/about.jpg"
               alt="Noor Store"
               className="about-image"
             />

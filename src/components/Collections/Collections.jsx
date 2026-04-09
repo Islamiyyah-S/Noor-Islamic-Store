@@ -33,13 +33,13 @@ export default function Collections() {
             <div className="col-card-img-wrap">
               <img src={col.image} alt={col.name} className="col-card-img" />
               <div className="col-card-overlay" />
-              <div className="col-card-hover-btn" onClick={(e) => { e.stopPropagation(); navigate(`/collections/${col.slug}`) }}>
-                Shop Now
-              </div>
-            </div>
             <div className="col-card-info">
               <span className="col-card-name">{col.name}</span>
               <span className="col-card-count">{col.count}</span>
+            </div>
+              <div className="col-card-hover-btn" onClick={(e) => { e.stopPropagation(); navigate(`/collections/${col.slug}`) }}>
+                Shop Now
+              </div>
             </div>
           </div>
         ))}

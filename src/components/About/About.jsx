@@ -55,7 +55,7 @@ export default function About() {
           {/* Main Image */}
           <div className="about-image-wrap">
             <img
-              src="public/about.jpg"
+              src="/about.jpg"
               alt="Noor Store"
               className="about-image"
             />

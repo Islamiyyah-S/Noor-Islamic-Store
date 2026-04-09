@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import CartDrawer from "../components/CartDrawer/CartDrawer";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

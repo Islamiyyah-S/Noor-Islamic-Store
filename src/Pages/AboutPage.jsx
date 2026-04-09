@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import Footer from "../components/Footer/Footer"
 import { useState } from "react"
 import CartDrawer from "../components/CartDrawer/CartDrawer"

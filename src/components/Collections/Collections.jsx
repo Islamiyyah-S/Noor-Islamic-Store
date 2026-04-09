@@ -2,12 +2,12 @@ import { useNavigate } from "react-router-dom"
 import "./Collections.css"
 
 const collections = [
-  { id: 1, name: "Abayas", count: "42 pieces", image: "public/Images/Collections/abaya.jpg", slug: "abayas" },
-  { id: 2, name: "Thobes", count: "28 items", image: "public/Images/Collections/thobes.jpg", slug: "thobes" },
-  { id: 3, name: "Hijabs & Scarves", count: "19 items", image: "public/Images/Collections/hijabs.jpg", slug: "hijabs-scarves" },
-  { id: 4, name: "Books & Qurans", count: "35 items", image: "public/Images/Collections/qurans.jpg", slug: "quran-books" },
-  { id: 5, name: "Perfumes & Oils", count: "24 items", image: "public/Images/Collections/perfumes.jpg", slug: "perfumes" },
-  { id: 6, name: "Gift Box", count: "17 items", image: "public/Images/Collections/giftbox.jpg", slug: "gift-boxes" },
+  { id: 1, name: "Abayas", count: "42 pieces", image: "/Images/Collections/abaya.jpg", slug: "abayas" },
+  { id: 2, name: "Thobes", count: "28 items", image: "/Images/Collections/thobes.jpg", slug: "thobes" },
+  { id: 3, name: "Hijabs & Scarves", count: "19 items", image: "/Images/Collections/hijabs.jpg", slug: "hijabs-scarves" },
+  { id: 4, name: "Books & Qurans", count: "35 items", image: "/Images/Collections/qurans.jpg", slug: "quran-books" },
+  { id: 5, name: "Perfumes & Oils", count: "24 items", image: "/Images/Collections/perfumes.jpg", slug: "perfumes" },
+  { id: 6, name: "Gift Box", count: "17 items", image: "/Images/Collections/giftbox.jpg", slug: "gift-boxes" },
 ]
 
 export default function Collections() {
